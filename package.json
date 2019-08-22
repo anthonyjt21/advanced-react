@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Advanced React",
   "main": "lib/server.js",
-  "repository": "https://github.com/jscomplete/advanced-react",
+  "repository": "https://github.com/anthonyjt21/advanced-react",
   "author": "Anthony Jimenez",
   "license": "MIT"
 }
