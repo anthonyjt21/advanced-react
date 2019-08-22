@@ -2,3 +2,7 @@ yarn add --dev eslint
 # yarn eslint -- --init
 yarn add --dev eslint-plugin-react babel-eslint
 yarn add express ejs
+yarn add pm2
+yarn pm2 logs
+yarn add babel-cli babel-preset-react balbel-preset-env babel-preset-stage-2
+git show --decorate
