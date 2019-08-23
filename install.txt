@@ -4,5 +4,16 @@ yarn add --dev eslint-plugin-react babel-eslint
 yarn add express ejs
 yarn add pm2
 yarn pm2 logs
-yarn add babel-cli babel-preset-react balbel-preset-env babel-preset-stage-2
+yarn add babel-cli babel-preset-react babel-preset-env babel-preset-stage-2
 git show --decorate
+yarn add react react-dom webpack
+yarn add babel-loader
+yarn webpack
+
+npm install -D babel-loader @babel/core @babel/preset-env webpack
+npm install --save-dev @babel/preset-react
+npm install --save-dev @babel/preset-stage-2
+
+yarn add @babel/plugin-proposal-class-properties
+
+yarn add babel-polyfill

@@ -1,0 +1,14 @@
+"dev": "pm2 start lib/server.js --watch webpack mode development"
+
+
+npm uninstall --save-dev @babel/preset-stage-2
+
+npm install babel-loader @babel/core @babel/preset-env
+yarn add @babel/preset-react
+npm install @babel/core --save
+npm install --save-dev @babel/core @babel/preset-env 
+npm install --save-dev @babel/preset-react
+yarn add webpack-cli
+npm uninstall --save babel-loader
+npm uninstall --save @babel/core
+npm uninstall --save-dev babel-cli  babel-core babel-polyfill babel-preset-es2015 babel-preset-stage-2 babel-register

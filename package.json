@@ -7,16 +7,38 @@
   "author": "Anthony Jimenez",
   "license": "MIT",
   "scripts": {
-    "dev": "pm2 start lib/server.js --watch"
+    "dev": "pm2 start lib/server.js --watch webpack",
+    "webpack": "webpack -wd"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/react"
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-class-properties"
+    ]
   },
   "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
     "babel-eslint": "^10.0.2",
+    "babel-loader": "^8.0.6",
     "eslint": "^6.2.1",
-    "eslint-plugin-react": "^7.14.3"
+    "eslint-plugin-react": "^7.14.3",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7"
   },
   "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "babel-cli": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
     "ejs": "^2.6.2",
     "express": "^4.17.1",
-    "pm2": "^3.5.1"
+    "pm2": "^3.5.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
   }
 }
