@@ -20,3 +20,5 @@ yarn add babel-polyfill
 git show --decorate
 git tag 3.1 -a "advance react"
 git push origin --tags
+yarn add --dev jest
+yarn test
