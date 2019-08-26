@@ -22,3 +22,5 @@ git tag 3.1 -a "advance react"
 git push origin --tags
 yarn add --dev jest
 yarn test
+yarn dev
+yarn pm2 stop server
