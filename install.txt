@@ -25,3 +25,12 @@ yarn test
 yarn dev
 yarn pm2 stop server
 yarn add --dev react-test-renderer
+
+npm install @babel/node
+npm install @babel/core @babel/register @babel/preset-env --save-dev
+npm install -D @babel/core @babel/cli @babel/preset-env @babel/node
+npm i -D @babel/cli @babel/core @babel/node @babel/preset-env nodemon
+npm i --save rimraf npm-run-all
+https://adrianmejia.com/getting-started-with-node-js-modules-require-exports-imports-npm-and-beyond/
+npm install express
+C:\2019_dev\advanced-react>yarn nodemon --exec babel-node lib/server.js
